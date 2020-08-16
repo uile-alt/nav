@@ -5,6 +5,8 @@ const xObject = JSON.parse(x);
 const hashMap = xObject || [
   { logo: "A", url: "http://www.acfun.cn" },
   { logo: "B", url: "https://bilibili.com" },
+  { logo: "V", url: "https://www.v2ex.com/" },
+  { logo: "T", url: "https://tieba.baidu.com/index.html" },
 ];
 const simplifyUrl = (url) => {
   return url
